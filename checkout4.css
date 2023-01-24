@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    line-height: 1.7rem;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+/**********nav-bar starts here******/
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav-bar .logo{
+    display: flex;
+    align-items: center;
+}
+.nav-bar .logo h1{
+    font-weight: 200;
+}
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+}
+.nav-bar li{
+    margin: 0 20px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+}
+.nav-bar a:hover{
+    color: #eeca5c;
+}
+.nav-bar input{
+    padding: 10px 70px;
+    border-radius: 10px;
+    border: 1px solid black;
+    position: relative;
+}
+.nav-bar form input{
+    position: relative;
+    opacity: 0.5;
+}
+.nav-bar form input::placeholder{
+    position: relative;
+    right: 60px;
+
+}
+.nav-bar form i{
+    position: relative;
+    right: 40px;
+}
+.nav-bar .nav-icons i{
+    color: black;
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+.nav-bar .nav-icons i:hover{
+    color: #eeca5c;
+}
+/******nav-bar ends here****/
+/*****section starts here***/
+section{
+    background-color: #FFF6DA;
+}
+section .container{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.aside-checkout h2{
+    margin-top: 30px;
+    font-family: 'Reem Kufi', sans-serif;
+    margin-bottom: 20px;
+}
+.aside-checkout form input{
+    margin-bottom: 40px;
+}
+.aside-checkout form input[type=radio]{
+    border: 0;
+    width: 5%;
+    height: 1rem;
+    filter: hue-rotate(300deg);
+    margin-right: 10px;
+}
+.aside-checkout form div{
+    position: relative;
+}
+.confirm-order{
+    background-color: white;
+    max-width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #808080;
+    text-align: center;
+}
+.confirm-order img{
+    margin: 20px auto;
+}
+.confirm-order p{
+    width: 80%;
+    margin: 0 auto;
+}
+.confirm-order .order-code{
+    margin-bottom: 20px;
+}
+.confirm-order span{
+    color:  #0000FF;
+}
+
+/*****section ends here***/
+/*****footer starts here*****/
+.container{
+    padding: 30px;
+}
+footer .details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+footer .details img, p, a{
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+footer .details i{
+    margin-right: 15px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    color: black;
+}
+a .logo h1:hover{
+    color: #eeca5c;
+}
+.details ul{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    list-style: none;
+    margin-top: 40px;
+}
+.details ul li{
+    margin-bottom: 10px;
+}
+hr{
+    margin-top: 10px;
+    opacity: 50%;
+}
+.copyright{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 30% 25%;
+    justify-content: space-between;
+}
+.copyright ul{
+    display: grid;
+    grid-template-columns: 15% 40% 50%;
+    list-style: none;
+}
+/*****footer ends here**

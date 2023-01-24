@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    line-height: 1.7rem;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+/**********nav-bar starts here******/
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav-bar .logo{
+    display: flex;
+    align-items: center;
+}
+.nav-bar .logo h1{
+    font-weight: 200;
+}
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+}
+.nav-bar li{
+    margin: 0 20px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+}
+.nav-bar a:hover{
+    color: #eeca5c;
+}
+.nav-bar input{
+    padding: 10px 70px;
+    border-radius: 10px;
+    border: 1px solid black;
+    position: relative;
+}
+.nav-bar form input{
+    position: relative;
+    opacity: 0.5;
+}
+.nav-bar form input::placeholder{
+    position: relative;
+    right: 60px;
+
+}
+.nav-bar form i{
+    position: relative;
+    right: 40px;
+}
+.nav-bar .nav-icons i{
+    color: black;
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+.nav-bar .nav-icons i:hover{
+    color: #eeca5c;
+}
+/******nav-bar ends here****/
+/***section1 starts here****/
+#section1 .container{
+    padding: 30px;
+}
+#section1, #section2{
+    background-color:  #FFF6DA;
+}
+#section1 h3{
+    margin-top: 30px;
+    margin-right: 20px;
+    font-family: 'Reem Kufi', sans-serif;
+}
+.blog a{
+
+    margin-top: 30px;
+}
+.blog{
+    display: flex;
+    margin-bottom: 30px;
+}
+#section1 a{
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+#section1 p{
+    opacity: 0.5;
+}
+#section1 .blog-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 40px;
+}
+.blog-cards .card-body{
+   display: grid;
+   grid-template-columns: 60% 40%;
+   gap: 20px;
+}
+.card .card-head{
+    margin-bottom: 20px;
+}
+.card{
+    position: relative;
+}
+.card-body img{
+    position: relative;
+    bottom: 70px;
+}
+/******section1 ends here****/
+/***********section2 starts here*****/
+#section2 .container{
+    padding: 30px;
+    text-align: center;
+}
+#section2 h1{
+    font-family: 'Reem Kufi', sans-serif;
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+}
+#section2 p{
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    opacity: 0.6;
+}
+#section2 #input{
+    padding: 10px 80px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #FFF6DA;
+    opacity: 60%;
+    margin-right: 10px;
+    position: relative;
+}
+#section2 #input::placeholder{
+    position: relative;
+    right: 60px;
+}
+#section2 #btn{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: blue;
+}
+/***********section2 ends here*****/
+/*****footer starts here*****/
+.container{
+    padding: 30px;
+}
+footer .details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+footer.details img, p, a{
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+footer .details i{
+    margin-right: 15px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    color: black;
+}
+a .logo h1:hover{
+    color: #eeca5c;
+}
+.details ul{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    list-style: none;
+    margin-top: 40px;
+}
+.details ul li{
+    margin-bottom: 10px;
+}
+hr{
+    margin-top: 10px;
+    opacity: 50%;
+}
+.copyright{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 30% 25%;
+    justify-content: space-between;
+}
+.copyright ul{
+    display: grid;
+    grid-template-columns: 15% 40% 50%;
+    list-style: none;
+}
+/*****footer starts here*****/

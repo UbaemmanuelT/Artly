@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    line-height: 1.7rem;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+h3{
+    font-family: 'Reem Kufi', sans-serif;
+}
+/**********nav-bar starts here******/
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.nav-bar .logo{
+    display: flex;
+    align-items: center;
+}
+.nav-bar .logo h1{
+    font-weight: 200;
+}
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+}
+.nav-bar li{
+    margin: 0 20px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+}
+.nav-bar a:hover{
+    color: #eeca5c;
+}
+.nav-bar input{
+    padding: 10px 70px;
+    border-radius: 10px;
+    border: 1px solid black;
+    position: relative;
+}
+.nav-bar form input{
+    position: relative;
+    opacity: 40%;
+}
+.nav-bar form input::placeholder{
+    position: relative;
+    right: 60px;
+
+}
+.nav-bar form i{
+    position: relative;
+    right: 40px;
+}
+.nav-bar .nav-icons i{
+    color: black;
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+.nav-bar .nav-icons i:hover{
+    color: #eeca5c;
+}
+/******nav-bar ends here****/
+/*****section1 starts here***/
+#section1{
+    background-color: #FFF6DA;
+}
+#section1 .container{
+    padding: 30px;
+    display: grid;
+    grid-template-columns:50% 50%;
+}
+#container-head p{
+    color: blue;
+    margin-bottom: 30px;
+}
+.herring-art-preview img{
+    margin-right: 10px;
+}
+.herring-art #red-herring img{
+    width: 80%;
+}
+form{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.container form #cart{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    position: relative;
+    background-color: transparent;
+}
+.container form .fa-cart-plus{
+    font-size: 1rem;
+    position: relative;
+    left: 30px;
+}
+.container form #favourite{
+    padding: 10px 20px 10px 30px;
+    background-color: transparent;
+    border: 1px solid blue;
+    border-radius: 10px;
+    position: relative;
+}
+.container form .fa-heart{
+    font-size: 1rem;
+    position: relative;
+    left: 30px;
+    color: red;
+}
+.aside{
+    margin-top: 80px;
+}
+.aside .price{
+    border: 1px solid black;
+    padding: 10px;
+    max-width: 60%;
+    background-color: #f8f3f3;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.price p:nth-of-type(1){
+    opacity: 70%;
+}
+.aside .herring-details{
+    border: 1px solid black;
+    padding: 10px;
+    max-width: 60%;
+    background-color: #f8f3f3;
+    border-radius: 10px;
+}
+.herring-details div{
+    margin-bottom: 10px;
+}
+.herring-details .fa-heart{
+    color: red;
+    margin-right: 10px;
+}
+.description{
+    min-width: 130%;
+}
+.description h3{
+    margin-bottom: 20px;
+}
+.description p{
+    opacity: 60%;
+}
+/*****section1 ends here***/
+/******section2 starts here*****/
+#section2 .container{
+    padding: 30px;
+}
+#section2{
+    background-color: #FFF6DA;
+}
+.art-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#section2 .container h3{
+    margin-bottom: 20px;
+}
+.cards .amanda{
+    color: blue;
+}
+/******section2 ends here*****/
+/*****footer starts here*****/
+.container{
+    padding: 30px;
+}
+footer .details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+footer.details img, p, a{
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+footer .details i{
+    margin-right: 15px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    color: black;
+}
+a .logo h1:hover{
+    color: #eeca5c;
+}
+.details ul{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    list-style: none;
+    margin-top: 40px;
+}
+.details ul li{
+    margin-bottom: 10px;
+}
+hr{
+    margin-top: 10px;
+    opacity: 50%;
+}
+.copyright{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 30% 25%;
+    justify-content: space-between;
+}
+.copyright ul{
+    display: grid;
+    grid-template-columns: 15% 40% 50%;
+    list-style: none;
+}
+/*****footer ends here*****/

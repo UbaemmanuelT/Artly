@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    line-height: 1.7rem;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+/**********nav-bar starts here******/
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav-bar .logo{
+    display: flex;
+    align-items: center;
+}
+.nav-bar .logo h1{
+    font-weight: 200;
+}
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+}
+.nav-bar li{
+    margin: 0 20px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+}
+.nav-bar a:hover{
+    color: #eeca5c;
+}
+.nav-bar input{
+    padding: 10px 70px;
+    border-radius: 10px;
+    border: 1px solid black;
+    position: relative;
+}
+.nav-bar form input{
+    position: relative;
+    opacity: 0.5;
+}
+.nav-bar form input::placeholder{
+    position: relative;
+    right: 60px;
+
+}
+.nav-bar form i{
+    position: relative;
+    right: 40px;
+}
+.nav-bar .nav-icons i{
+    color: black;
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+.nav-bar .nav-icons i:hover{
+    color: #eeca5c;
+}
+/******nav-bar ends here****/
+/*****section starts here****/
+section{
+    background-color: #FFF6DA;
+}
+section .container{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.aside-checkout h2{
+    margin-top: 30px;
+    font-family: 'Reem Kufi', sans-serif;
+    margin-bottom: 20px;
+}
+.aside-checkout form input{
+    margin-bottom: 40px;
+    margin-right: 10px;
+    font-size: 2rem;
+}
+.aside-checkout form input[type=radio]{
+    border: 0;
+    width: 5%;
+    height: 1rem;
+    filter: hue-rotate(300deg);
+    margin-right: 10px;
+}
+.aside-checkout #payment, #confirmation{
+    opacity: 0.5;
+}
+.items-selected{
+    background-color: #FFFFFF;
+    padding: 20px;
+    border: 1px solid #808080;
+    border-radius: 20px;
+    max-width: 80%;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.items-selected .header{
+    display: flex;
+    justify-content: space-between;
+}
+.items-selected .header h3{
+    margin-bottom: 30px;
+}
+.items-selected .header p{
+    color: #0000FF;
+}
+.image-selected{
+    display: flex;
+}
+.image-selected .image{
+    width: 30%;
+    align-self: center;
+    margin-right: 10px;
+}
+.image-selected .image img{
+    width: 100%;
+    border-radius: 10px;
+}
+.img-price{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.img-price .artist, .date{
+    opacity: 0.7;
+}
+hr{
+    margin-bottom: 20px;
+}
+fieldset .header h3{
+    margin-bottom: 30px;
+}
+fieldset .header{
+    display: flex;
+    justify-content: space-between;
+}
+fieldset .header p{
+    color: #0000FF;
+}
+fieldset{
+    max-width: 80%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color:  #FFFFFF;
+    border: 1px solid gray;
+}
+fieldset .location{
+    display: flex;
+}
+fieldset .location div{
+    margin-right: 100px;
+}
+fieldset .info h3{
+    opacity: 0.6;
+}
+.checkout-form a{
+    position: relative;
+    left: 500px;
+}
+button{
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #0000FF;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 50px;
+    font-size: 1rem;
+}
+/*****section ends here****/
+/*****footer starts here*****/
+.container{
+    padding: 30px;
+}
+footer .details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+footer .details img, p, a{
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+footer .details i{
+    margin-right: 15px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    color: black;
+}
+a .logo h1:hover{
+    color: #eeca5c;
+}
+.details ul{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    list-style: none;
+    margin-top: 40px;
+}
+.details ul li{
+    margin-bottom: 10px;
+}
+hr{
+    margin-top: 10px;
+    opacity: 50%;
+}
+.copyright{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 30% 25%;
+    justify-content: space-between;
+}
+.copyright ul{
+    display: grid;
+    grid-template-columns: 15% 40% 50%;
+    list-style: none;
+}
+/*****footer ends here*****/

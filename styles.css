@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    line-height: 1.7rem;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+/**********nav-bar starts here******/
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav-bar .logo{
+    display: flex;
+    align-items: center;
+}
+.nav-bar .logo h1{
+    font-weight: 200;
+}
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+}
+.nav-bar li{
+    margin: 0 20px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+}
+.nav-bar a:hover{
+    color: #eeca5c;
+}
+.nav-bar input{
+    padding: 10px 70px;
+    border-radius: 10px;
+    border: 1px solid black;
+    position: relative;
+}
+.nav-bar form input{
+    position: relative;
+    opacity: 0.5;
+}
+.nav-bar form input::placeholder{
+    position: relative;
+    right: 60px;
+
+}
+.nav-bar form i{
+    position: relative;
+    right: 40px;
+}
+.nav-bar .nav-icons i{
+    color: black;
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+.nav-bar .nav-icons i:hover{
+    color: #eeca5c;
+}.nav-bar .nav-icons i:hover{
+    color: #eeca5c;
+}
+/******nav-bar ends here****/
+/*****section1 starts here*****/
+#section1{
+    background-color: #FFF6DA;
+}
+#section1 .container{
+    padding: 30px;
+}
+.sec-head h1{
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif;
+    font-weight: 500;
+    width: 100%;
+    opacity: 80%;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.sec-head .sec-p{
+    font-size: 1.3rem;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 50px;
+    opacity: 0.5;
+}
+.sec-image{
+    display: flex;
+    margin-left: 100px;
+    flex-wrap: wrap;
+}
+.sec-image div{
+    width: 15%;
+    text-align: center;
+    justify-content: center;
+}
+.sec-image p{
+    text-align: center;
+}
+.sec-image img{
+    width: 80%;
+}
+.sec-image .ellipse{
+    width: 60%;
+    margin-top: 20px;
+    position: relative;
+}
+.sec-image #ellipse6 p{
+    color: white;
+    font-size: 3.5rem;
+    position: relative;
+    bottom: 70px;
+}
+.amanda{
+    color: blue;
+}
+.see-link{
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+/*******section1 ends here****/
+
+/******section2 starts here*****/
+#section2 .container{
+    padding: 30px;
+}
+#section2 h3{
+    font-family: 'Reem Kufi', sans-serif;
+}
+.trending .trending-head{
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+   
+}
+.trending .trending-head h3{
+    margin-right: 20px;
+}
+.trending .trending-art{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.artists .artists-head{
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.artists .artists-head h3{
+    margin-right: 20px;
+}
+.artists .artists-pic{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.artists-pic a{
+    text-decoration: none;
+}
+.recommended .recommended-head{
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.recommended .recommended-head h3{
+    margin-right: 20px;
+}
+.recommended .recommended-art{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+/*******section2 ends here*****/
+
+/*******section3 starts here*****/
+#section3{
+    background-color: #FFF6DA;
+}
+#section3 .container{
+    padding: 30px;
+}
+#section3 h3{
+    font-family:'Reem Kufi', sans-serif;
+}
+#section3 .events-head{
+    display: flex;
+}
+#section3 .events-head h3{
+    margin-right: 20px;
+}
+#section3  a{
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+#section3 .events-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#section3 .cards{
+    margin-top: 20px;
+    padding: 10px;
+}
+#section3 p{
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+#section3 .cards .p{
+    margin-top: 10px;
+}
+/*****section3 ends here*****/
+
+/*****footer starts here*****/
+.container{
+    padding: 30px;
+}
+footer .details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+footer.details img, p, a{
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+footer .details i{
+    margin-right: 15px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    color: black;
+}
+a .logo h1:hover{
+    color: #eeca5c;
+}
+.details ul{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    list-style: none;
+    margin-top: 40px;
+}
+.details ul li{
+    margin-bottom: 10px;
+}
+hr{
+    margin-top: 10px;
+    opacity: 50%;
+}
+.copyright{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 30% 25%;
+    justify-content: space-between;
+}
+.copyright ul{
+    display: grid;
+    grid-template-columns: 15% 40% 50%;
+    list-style: none;
+}
+/*****footer ends here*****/
